@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_9hI7oEnkEeaiB8GXit7Q3A">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_YWxNgKLKEea5JbBNDOSjKQ" featurename="addons" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="application:Addon" xmi:id="_czKgUKLKEea5JbBNDOSjKQ" elementId="org.grits.toolbox.lab.servicelab.addon.0" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.PluginAddon"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OUSOAEq8EeaY--ux06roow" featurename="children" parentElementId="org.grits.toolbox.core.popupmenu.projectexplorer" positionInList="after:org.grits.toolbox.core.menuseparator.projectexplorer.afterview">
+    <elements xsi:type="menu:MenuSeparator" xmi:id="_1wenYErDEeaY--ux06roow" elementId="org.grits.toolbox.lab.servicelab.menuseparator.0"/>
+    <elements xsi:type="menu:Menu" xmi:id="_dQG3oEq9EeaY--ux06roow" elementId="org.grits.toolbox.lab.servicelab.menu.servicelab" label="Service Lab">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_g5lLwIsTEeaT1MgOe-Gl5Q" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.verifyexperiments" label="Verify Experiments" iconURI="platform:/plugin/org.grits.toolbox.lab.servicelab/icons/tick-icon.png" tooltip="Verify that experiments in a project contain required protocols" command="_ieUYIIsXEeaT1MgOe-Gl5Q"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_cDRiUFp6EeaqxYUbSQNAvA" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.generatebill" label="Generate Bill" tooltip="Generates bill for the selected project" mnemonics="" command="_JR5uAFp6EeaqxYUbSQNAvA"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_dusIwNK_EeaLS_rGETZV_Q" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.uploadbill" label="Upload Bill" tooltip="Upload a bill to a project" command="_LdTcENK_EeaLS_rGETZV_Q"/>
+      <children xsi:type="menu:Menu" xmi:id="_We4AcIZ-EeapNr_ydYOvtA" elementId="org.grits.toolbox.lab.servicelab.menu.manager" label="Open Manager">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_DDR6MErEEeaY--ux06roow" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.protocolpricemanager" label="Price Manager" tooltip="Opens Protocol Price Manager for Service Lab" command="_LvYHoErEEeaY--ux06roow"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_oz1OAHX1EeaDJb2EO-ywMQ" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.protocolfilemanager" label="File Manager" tooltip="It opens Protocol File Manager" command="_Q8kd8HX1EeaDJb2EO-ywMQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_7mXUkHFCEeakMset_a4-EQ" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.taskprotocolmanager" label="Task Manager" tooltip="Opens Task Protocol Manager for Service Lab" command="_UTekAHFCEeakMset_a4-EQ"/>
+      </children>
+    </elements>
+    <elements xsi:type="menu:MenuSeparator" xmi:id="_7oLakErDEeaY--ux06roow" elementId="org.grits.toolbox.lab.servicelab.menuseparator.1"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_bEtS4ErEEeaY--ux06roow" featurename="children" parentElementId="org.grits.toolbox.core.menu.main.plugins">
+    <elements xsi:type="menu:Menu" xmi:id="_jHuHEErEEeaY--ux06roow" elementId="org.grits.toolbox.lab.servicelab.menu.servicelab" label="Service Lab">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_zawEEIsXEeaT1MgOe-Gl5Q" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.verifyexperiments" label="Verify Experiments" iconURI="platform:/plugin/org.grits.toolbox.lab.servicelab/icons/tick-icon.png" tooltip="Verify that experiments in a project contain required protocols" command="_ieUYIIsXEeaT1MgOe-Gl5Q"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_mU_pwFp6EeaqxYUbSQNAvA" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.generatebill" label="Generate Bill" tooltip="Generates bill for the selected project" command="_JR5uAFp6EeaqxYUbSQNAvA"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_7bqvANK_EeaLS_rGETZV_Q" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.uploadbill" label="Upload Bill" tooltip="Upload a bill to a project" command="_LdTcENK_EeaLS_rGETZV_Q"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_JL3_0LtmEeiSndB3ohkD5w" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.filterprojects" label="Filter Projects" tooltip="Show projects that are updated in a given timeframe" command="_7td58LtlEeiSndB3ohkD5w"/>
+      <children xsi:type="menu:Menu" xmi:id="_hNxzIIZ-EeapNr_ydYOvtA" elementId="org.grits.toolbox.lab.servicelab.menu.manager" label="Open Manager">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_0qR-4ErEEeaY--ux06roow" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.protocolpricemanager" label="Price Manager" tooltip="Opens Protocol Price Manager for Service Lab" command="_LvYHoErEEeaY--ux06roow"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_dlPOoHX1EeaDJb2EO-ywMQ" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.protocolfilemanager" label="File Manager" tooltip="It opens Protocol File Manager" command="_Q8kd8HX1EeaDJb2EO-ywMQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_KgMFAHFCEeakMset_a4-EQ" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.taskprotocolmanager" label="Task Manager" tooltip="Opens Task Protocol Manager for Service Lab" command="_UTekAHFCEeakMset_a4-EQ"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HPvTkErEEeaY--ux06roow" featurename="commands" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Command" xmi:id="_JR5uAFp6EeaqxYUbSQNAvA" elementId="org.grits.toolbox.lab.servicelab.command.generatebill" commandName="Generate Bill" description="Generates bill for the selected project"/>
+    <elements xsi:type="commands:Command" xmi:id="_LvYHoErEEeaY--ux06roow" elementId="org.grits.toolbox.lab.servicelab.command.open.protocolpricemanager" commandName="Open Price Manager" description="It opens Protocol Price Manager"/>
+    <elements xsi:type="commands:Command" xmi:id="_UTekAHFCEeakMset_a4-EQ" elementId="org.grits.toolbox.lab.servicelab.command.open.taskprotocolmanager" commandName="Open Task Manager" description="Opens Protocol Task Manager"/>
+    <elements xsi:type="commands:Command" xmi:id="_Q8kd8HX1EeaDJb2EO-ywMQ" elementId="org.grits.toolbox.lab.servicelab.command.open.protocolfilemanager" commandName="Open File Manager" description="It opens Protocol File Manager"/>
+    <elements xsi:type="commands:Command" xmi:id="_ieUYIIsXEeaT1MgOe-Gl5Q" elementId="org.grits.toolbox.lab.servicelab.command.verifyexperiments" commandName="Verify Experiments" description="Verify that experiments in a project contain required protocols"/>
+    <elements xsi:type="commands:Command" xmi:id="_LdTcENK_EeaLS_rGETZV_Q" elementId="org.grits.toolbox.lab.servicelab.command.uploadbill" commandName="Upload Bill" description="Upload a bill to a project"/>
+    <elements xsi:type="commands:Command" xmi:id="_u22SwIFPEeilz5ZYUL8Tow" elementId="org.grits.toolbox.lab.servicelab.command.newservicelabproject" commandName="ServiceLab Project"/>
+    <elements xsi:type="commands:Command" xmi:id="_7td58LtlEeiSndB3ohkD5w" elementId="org.grits.toolbox.lab.servicelab.command.filterprojects" commandName="Filter Projects"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_LacqAEz0Eea6OrNv7KytvQ" featurename="handlers" parentElementId="org.grits.toolbox.core.trimmedwindow.main">
+    <elements xsi:type="commands:Handler" xmi:id="_U2-TsFp6EeaqxYUbSQNAvA" elementId="org.grits.toolbox.lab.servicelab.handler.generatebill" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.GenerateBillHandler" command="_JR5uAFp6EeaqxYUbSQNAvA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_gKKaUEz0Eea6OrNv7KytvQ" elementId="org.grits.toolbox.lab.servicelab.handler.open.protocolpricemanager" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.OpenPriceManagerHandler" command="_LvYHoErEEeaY--ux06roow"/>
+    <elements xsi:type="commands:Handler" xmi:id="_iOIhAHFCEeakMset_a4-EQ" elementId="org.grits.toolbox.lab.servicelab.handler.open.taskprotocolmanager" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.OpenTaskManagerHandler" command="_UTekAHFCEeakMset_a4-EQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_NUQ6gHX1EeaDJb2EO-ywMQ" elementId="org.grits.toolbox.lab.servicelab.handler.open.protocolfilemanager" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.OpenFileManagerHandler" command="_Q8kd8HX1EeaDJb2EO-ywMQ"/>
+    <elements xsi:type="commands:Handler" xmi:id="_u5rFkIsXEeaT1MgOe-Gl5Q" elementId="org.grits.toolbox.lab.servicelab.handler.verifyexperiments" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.VerifyExperimentsHandler" command="_ieUYIIsXEeaT1MgOe-Gl5Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_FbRywNLAEeaLS_rGETZV_Q" elementId="org.grits.toolbox.lab.servicelab.handler.uploadbill" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.UploadBillHandler" command="_LdTcENK_EeaLS_rGETZV_Q"/>
+    <elements xsi:type="commands:Handler" xmi:id="_20HEQIFPEeilz5ZYUL8Tow" elementId="org.grits.toolbox.lab.servicelab.handler.newservicelabproject" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.NewServiceLabProjectHandler" command="_u22SwIFPEeilz5ZYUL8Tow"/>
+    <elements xsi:type="commands:Handler" xmi:id="_BKgKYLtmEeiSndB3ohkD5w" elementId="org.grits.toolbox.lab.servicelab.handler.filterprojects" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.handler.FIlterProjectsHandler" command="_7td58LtlEeiSndB3ohkD5w"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_hp-f4Ez3Eea6OrNv7KytvQ" featurename="descriptors" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_lnkr8Ez5Eea6OrNv7KytvQ" elementId="org.grits.toolbox.lab.servicelab.partdescriptor.protocolpricemanager" label="Price Manager" iconURI="platform:/plugin/org.grits.toolbox.lab.servicelab/icons/gear.png" tooltip="Displays information related to Protocol Manager" closeable="true" dirtyable="true" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.part.pricemanager.ProtocolPriceManager">
+      <tags>perspective:org.grits.toolbox.core.perspective.projectexplorer</tags>
+    </elements>
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_k_7akHE_EeakMset_a4-EQ" elementId="org.grits.toolbox.lab.servicelab.partdescriptor.taskprotocolmanager" label="Task Manager" iconURI="platform:/plugin/org.grits.toolbox.lab.servicelab/icons/gear.png" tooltip="Editor for editing task with related protocols" closeable="true" dirtyable="true" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.part.taskmanager.TaskProtocolManager">
+      <tags>perspective:org.grits.toolbox.core.perspective.projectexplorer</tags>
+    </elements>
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_9a7DQHX0EeaDJb2EO-ywMQ" elementId="org.grits.toolbox.lab.servicelab.partdescriptor.protocolfilemanager" label="File manager" iconURI="platform:/plugin/org.grits.toolbox.lab.servicelab/icons/gear.png" tooltip="It displays information related to protocol upload" closeable="true" dirtyable="true" contributionURI="bundleclass://org.grits.toolbox.lab.servicelab/org.grits.toolbox.lab.servicelab.part.filemanager.ProtocolUploadFileManager">
+      <tags>perspective:org.grits.toolbox.core.perspective.projectexplorer</tags>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_doX2kIE5Eeilz5ZYUL8Tow" featurename="children" parentElementId="org.grits.toolbox.core.menu.projectexplorer.popup.submenu.new">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_lOSdEIFPEeilz5ZYUL8Tow" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.newservicelabproject" label="Service Lab project" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project.png" command="_u22SwIFPEeilz5ZYUL8Tow"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ddvYsIqhEeiwsqljSm5QxQ" featurename="children" parentElementId="org.grits.toolbox.core.menu.main.grits.new">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_g6NfkIqhEeiwsqljSm5QxQ" elementId="org.grits.toolbox.lab.servicelab.handledmenuitem.servicelabnewproject" label="Service Lab Project" iconURI="platform:/plugin/org.grits.toolbox.core/icons/project.png" command="_u22SwIFPEeilz5ZYUL8Tow"/>
+  </fragments>
+</fragment:ModelFragments>

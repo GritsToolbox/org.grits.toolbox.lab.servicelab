@@ -1,0 +1,605 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:terms="http://purl.org/dc/terms/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+    xmlns="http://www.grits-toolbox.org/ontology/experimentdesigner#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#ESI-MS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>ESI-MS</rdfs:comment>
+    <rdfs:label>ESI-MS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Parameter">
+    <rdfs:label>Parameter</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#HPLC">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>HPLC</rdfs:comment>
+    <rdfs:label>HPLC</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#SAX-HPLC">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>SAX-HPLC</rdfs:comment>
+    <rdfs:label>SAX-HPLC</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Pyrolysis-MB-MS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Pyrolysis-MB-MS</rdfs:comment>
+    <rdfs:label>Pyrolysis-MB-MS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#N-Glycosylation_Site_Identification">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>N-Glycosylation Site Identification</rdfs:comment>
+    <rdfs:label>N-Glycosylation Site Identification</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Proton_NMR">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Proton NMR</rdfs:comment>
+    <rdfs:label>Proton NMR</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_icon">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Pyrolysis_MBMS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Pyrolysis_MBMS</rdfs:comment>
+    <rdfs:label>Pyrolysis_MBMS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_namespace">
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#namespace"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Parameter"/>
+    <rdfs:comment>Parameters have namespaces or datatype references</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Characterization">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Characterization</rdfs:comment>
+    <rdfs:label>Characterization</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Linkage">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Linkage</rdfs:comment>
+    <rdfs:label>Linkage</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Dialysis">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Dialysis</rdfs:comment>
+    <rdfs:label>Dialysis</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#N-Linked">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>N-Linked</rdfs:comment>
+    <rdfs:label>N-Linked</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroup">
+    <rdfs:comment>Parameter group is a grouping of parameters that belong to a protocol</rdfs:comment>
+    <rdfs:label>Parameter Group</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Neutral_Linkage">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Neutral Linkage</rdfs:comment>
+    <rdfs:label>Neutral Linkage</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#HPAEC">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>HPAEC</rdfs:comment>
+    <rdfs:label>HPAEC</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_category">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterContext">
+    <rdfs:comment>This is a placeholder class to model the n-ary relationship "a protocol has a parameter with the required value of true"</rdfs:comment>
+    <rdfs:label>Parameter Context</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#is_short_namespace">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#namespace"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Isolation">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Isolation</rdfs:comment>
+    <rdfs:label>Isolation</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Composition_%28Preliminary%29">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Composition (Preliminary)</rdfs:comment>
+    <rdfs:label>Composition (Preliminary)</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#HPAEC-PAD">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>HPAEC-PAD</rdfs:comment>
+    <rdfs:label>HPAEC-PAD</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Chitosan_Composition">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Chitosan Composition</rdfs:comment>
+    <rdfs:label>Chitosan Composition</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#parameter_group">
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroupContext"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroup"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Triacontanol_after_Saponification">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Triacontanol after Saponification</rdfs:comment>
+    <rdfs:label>Triacontanol after Saponification</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Hakomori_permethylation">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Hakomori permethylation</rdfs:comment>
+    <rdfs:label>Hakomori permethylation</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#PaperReference">
+    <rdfs:label>Paper Reference</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_parameter">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterContext"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_namespace_file">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#namespace"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Uronic_Acid_Linkage">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Uronic Acid Linkage</rdfs:comment>
+    <rdfs:label>Uronic Acid Linkage</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#1D_NMR">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>1D NMR</rdfs:comment>
+    <rdfs:label>1D NMR</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#contains_parameter">
+    <owl:inverseOf rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#belongs_to_group"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroup"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#belongs_to_group">
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroup"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Category">
+    <rdfs:comment>Categorization of protocols</rdfs:comment>
+    <rdfs:label>Category</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Stuff">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Stuff</rdfs:comment>
+    <rdfs:label>Stuff</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Preparative_SEC">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Preparative SEC</rdfs:comment>
+    <rdfs:label>Preparative SEC</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#MALDI">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>MALDI</rdfs:comment>
+    <rdfs:label>MALDI</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Uronic_Linkage">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Uronic Linkage</rdfs:comment>
+    <rdfs:label>Uronic Linkage</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Oligosaccharide_Profiling">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Oligosaccharide Profiling</rdfs:comment>
+    <rdfs:label>Oligosaccharide Profiling</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary">
+    <rdfs:label>Temporary Category</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Glycan_Profiling">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Glycan Profiling</rdfs:comment>
+    <rdfs:label>Glycan Profiling</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#LC-MS%2FMS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>LC-MS/MS</rdfs:comment>
+    <rdfs:label>LC-MS/MS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Purification">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Purification</rdfs:comment>
+    <rdfs:label>Purification</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <owl:unionOf rdf:nodeID="A1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#GC-MBMS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>GC-MBMS</rdfs:comment>
+    <rdfs:label>GC-MBMS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#2D_NMR">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>2D NMR</rdfs:comment>
+    <rdfs:label>2D NMR</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#SEC">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>SEC</rdfs:comment>
+    <rdfs:label>SEC</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#GAG">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>GAG</rdfs:comment>
+    <rdfs:label>GAG</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#NMR">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>NMR</rdfs:comment>
+    <rdfs:label>NMR</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Extraction">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Extraction</rdfs:comment>
+    <rdfs:label>Extraction</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#1D-_NMR">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>1D- NMR</rdfs:comment>
+    <rdfs:label>1D- NMR</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#MALDI-TOF%2FTOF">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>MALDI-TOF/TOF</rdfs:comment>
+    <rdfs:label>MALDI-TOF/TOF</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_file">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+    <rdfs:comment>name of the associated file</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner">
+    <owl:versionInfo>101.2.4</owl:versionInfo>
+    <oboInOwl:hasVersion>101.2.4</oboInOwl:hasVersion>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_position">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/created">
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Glycoprotein_Analysis">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Glycoprotein Analysis</rdfs:comment>
+    <rdfs:label>Glycoprotein Analysis</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Glycosyl_Linkage">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Glycosyl Linkage</rdfs:comment>
+    <rdfs:label>Glycosyl Linkage</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Linkage_%28Preliminary%29">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Linkage (Preliminary)</rdfs:comment>
+    <rdfs:label>Linkage (Preliminary)</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Composition">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Composition</rdfs:comment>
+    <rdfs:label>Composition</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <rdf:rest rdf:nodeID="A2"/>
+    <rdf:first rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterContext"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Proteomic_Analysis">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Proteomic Analysis</rdfs:comment>
+    <rdfs:label>Proteomic Analysis</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroupContext">
+    <rdfs:label>Parameter Group Context</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#O-Linked_Glycan_Profiling">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>O-Linked Glycan Profiling</rdfs:comment>
+    <rdfs:label>O-Linked Glycan Profiling</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <owl:unionOf rdf:nodeID="A4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Ferulic_Acid_Determination">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Ferulic Acid Determination</rdfs:comment>
+    <rdfs:label>Ferulic Acid Determination</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Lnkage">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Lnkage</rdfs:comment>
+    <rdfs:label>Lnkage</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Sulfate_Analysis">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Sulfate Analysis</rdfs:comment>
+    <rdfs:label>Sulfate Analysis</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#is_required">
+    <rdfs:domain rdf:nodeID="A0"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:label>is_required</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#O-Glycopeptide_Analysis">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>O-Glycopeptide Analysis</rdfs:comment>
+    <rdfs:label>O-Glycopeptide Analysis</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#PaletteCategory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Pyrolysis-MBMS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Pyrolysis-MBMS</rdfs:comment>
+    <rdfs:label>Pyrolysis-MBMS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#N-Linked_Glycan_Profiling">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>N-Linked Glycan Profiling</rdfs:comment>
+    <rdfs:label>N-Linked Glycan Profiling</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#LC-MS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>LC-MS</rdfs:comment>
+    <rdfs:label>LC-MS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#PaperReference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:rest rdf:nodeID="A5"/>
+    <rdf:first rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#PaperReference"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroupContext"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_parameter_group">
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterGroupContext"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_reference">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#PaperReference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_url">
+    <rdfs:domain rdf:nodeID="A3"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdfs:label>has_url</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Unit">
+    <rdfs:label>Unit</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_pubmed_id">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#PaperReference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#parameter">
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#ParameterContext"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Parameter"/>
+    <rdfs:label>parameter</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#namespace">
+    <rdfs:comment>It is used to describe the namespace for Parameter values</rdfs:comment>
+    <rdfs:label>Namespace</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Absolute_Configuration">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Absolute Configuration</rdfs:comment>
+    <rdfs:label>Absolute Configuration</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#LCMS%2FMS">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>LCMS/MS</rdfs:comment>
+    <rdfs:label>LCMS/MS</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#O-Linked">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>O-Linked</rdfs:comment>
+    <rdfs:label>O-Linked</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_unit_of_measurement">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Unit"/>
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#N-Linked_Profiling">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>N-Linked Profiling</rdfs:comment>
+    <rdfs:label>N-Linked Profiling</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Elemental_Analysis">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Elemental Analysis</rdfs:comment>
+    <rdfs:label>Elemental Analysis</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#HPAEC_Composition">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>HPAEC Composition</rdfs:comment>
+    <rdfs:label>HPAEC Composition</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Structural_Characterization">
+    <has_category rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Service_Lab_Temporary"/>
+    <terms:creator>Service Lab</terms:creator>
+    <rdfs:comment>Structural Characterization</rdfs:comment>
+    <rdfs:label>Structural Characterization</rdfs:label>
+    <rdf:type rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#Protocol">
+    <rdfs:label>Protocol</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.grits-toolbox.org/ontology/experimentdesigner#has_subCategory">
+    <rdfs:domain rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#PaletteCategory"/>
+    <rdfs:range rdf:resource="http://www.grits-toolbox.org/ontology/experimentdesigner#Category"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+</rdf:RDF>

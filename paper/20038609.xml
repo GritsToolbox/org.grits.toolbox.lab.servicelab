@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>20038609</Id>
+	<Item Name="PubDate" Type="Date">2010 Apr</Item>
+	<Item Name="EPubDate" Type="Date">2009 Dec 28</Item>
+	<Item Name="Source" Type="String">Mol Cell Proteomics</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Wada Y</Item>
+		<Item Name="Author" Type="String">Dell A</Item>
+		<Item Name="Author" Type="String">Haslam SM</Item>
+		<Item Name="Author" Type="String">Tissot B</Item>
+		<Item Name="Author" Type="String">Canis K</Item>
+		<Item Name="Author" Type="String">Azadi P</Item>
+		<Item Name="Author" Type="String">Bäckström M</Item>
+		<Item Name="Author" Type="String">Costello CE</Item>
+		<Item Name="Author" Type="String">Hansson GC</Item>
+		<Item Name="Author" Type="String">Hiki Y</Item>
+		<Item Name="Author" Type="String">Ishihara M</Item>
+		<Item Name="Author" Type="String">Ito H</Item>
+		<Item Name="Author" Type="String">Kakehi K</Item>
+		<Item Name="Author" Type="String">Karlsson N</Item>
+		<Item Name="Author" Type="String">Hayes CE</Item>
+		<Item Name="Author" Type="String">Kato K</Item>
+		<Item Name="Author" Type="String">Kawasaki N</Item>
+		<Item Name="Author" Type="String">Khoo KH</Item>
+		<Item Name="Author" Type="String">Kobayashi K</Item>
+		<Item Name="Author" Type="String">Kolarich D</Item>
+		<Item Name="Author" Type="String">Kondo A</Item>
+		<Item Name="Author" Type="String">Lebrilla C</Item>
+		<Item Name="Author" Type="String">Nakano M</Item>
+		<Item Name="Author" Type="String">Narimatsu H</Item>
+		<Item Name="Author" Type="String">Novak J</Item>
+		<Item Name="Author" Type="String">Novotny MV</Item>
+		<Item Name="Author" Type="String">Ohno E</Item>
+		<Item Name="Author" Type="String">Packer NH</Item>
+		<Item Name="Author" Type="String">Palaima E</Item>
+		<Item Name="Author" Type="String">Renfrow MB</Item>
+		<Item Name="Author" Type="String">Tajiri M</Item>
+		<Item Name="Author" Type="String">Thomsson KA</Item>
+		<Item Name="Author" Type="String">Yagi H</Item>
+		<Item Name="Author" Type="String">Yu SY</Item>
+		<Item Name="Author" Type="String">Taniguchi N</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Taniguchi N</Item>
+	<Item Name="Title" Type="String">Comparison of methods for profiling O-glycosylation: Human Proteome Organisation Human Disease Glycomics/Proteome Initiative multi-institutional study of IgA1.</Item>
+	<Item Name="Volume" Type="String">9</Item>
+	<Item Name="Issue" Type="String">4</Item>
+	<Item Name="Pages" Type="String">719-27</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101125647</Item>
+	<Item Name="ISSN" Type="String">1535-9476</Item>
+	<Item Name="ESSN" Type="String">1535-9484</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Evaluation Studies</Item>
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Multicenter Study</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">20038609</Item>
+		<Item Name="pii" Type="String">M900450-MCP200</Item>
+		<Item Name="doi" Type="String">10.1074/mcp.M900450-MCP200</Item>
+		<Item Name="pmc" Type="String">PMC2860227</Item>
+		<Item Name="rid" Type="String">20038609</Item>
+		<Item Name="eid" Type="String">20038609</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC2860227;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1074/mcp.M900450-MCP200</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2009/12/30 06:00</Item>
+		<Item Name="pubmed" Type="Date">2009/12/30 06:00</Item>
+		<Item Name="medline" Type="Date">2010/08/18 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">38</Item>
+	<Item Name="FullJournalName" Type="String">Molecular &amp; cellular proteomics : MCP</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1074/mcp.M900450-MCP200</Item>
+	<Item Name="SO" Type="String">2010 Apr;9(4):719-27</Item>
+</DocSum>
+
+</eSummaryResult>

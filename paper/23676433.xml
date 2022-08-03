@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>23676433</Id>
+	<Item Name="PubDate" Type="Date">2013 Jul</Item>
+	<Item Name="EPubDate" Type="Date">2013 May 15</Item>
+	<Item Name="Source" Type="String">Microbiology</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Santander J</Item>
+		<Item Name="Author" Type="String">Martin T</Item>
+		<Item Name="Author" Type="String">Loh A</Item>
+		<Item Name="Author" Type="String">Pohlenz C</Item>
+		<Item Name="Author" Type="String">Gatlin DM 3rd</Item>
+		<Item Name="Author" Type="String">Curtiss R 3rd</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Curtiss R 3rd</Item>
+	<Item Name="Title" Type="String">Mechanisms of intrinsic resistance to antimicrobial peptides of Edwardsiella ictaluri and its influence on fish gut inflammation and virulence.</Item>
+	<Item Name="Volume" Type="String">159</Item>
+	<Item Name="Issue" Type="String">Pt 7</Item>
+	<Item Name="Pages" Type="String">1471-86</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">9430468</Item>
+	<Item Name="ISSN" Type="String">1350-0872</Item>
+	<Item Name="ESSN" Type="String">1465-2080</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">23676433</Item>
+		<Item Name="pii" Type="String">mic.0.066639-0</Item>
+		<Item Name="doi" Type="String">10.1099/mic.0.066639-0</Item>
+		<Item Name="pmc" Type="String">PMC4085987</Item>
+		<Item Name="rid" Type="String">23676433</Item>
+		<Item Name="eid" Type="String">23676433</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC4085987;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1099/mic.0.066639-0</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2013/05/17 06:00</Item>
+		<Item Name="pubmed" Type="Date">2013/05/17 06:00</Item>
+		<Item Name="medline" Type="Date">2014/02/25 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">5</Item>
+	<Item Name="FullJournalName" Type="String">Microbiology (Reading, England)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1099/mic.0.066639-0</Item>
+	<Item Name="SO" Type="String">2013 Jul;159(Pt 7):1471-86</Item>
+</DocSum>
+
+</eSummaryResult>
